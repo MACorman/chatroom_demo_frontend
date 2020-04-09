@@ -1,13 +1,11 @@
 import React from 'react';
-import './App.css';
-import MessageForm from './components/MessageForm';
-import ChatRoom from './containers/ChatRoom';
+// import './App.css';
+import ConversationsList from './components/ConversationsList'
 
 function App() {
   return (
     <div className="App">
-      <MessageForm />
-      {/* <ChatRoom /> */}
+      <ConversationsList />
     </div>
   );
 }
